@@ -7,7 +7,7 @@ document.querySelector("#postBtn").addEventListener("click", async () => {
         // GitHub API configuration
         const username = "whiteplumeria2007"; // Replace with your GitHub username
         const repo = "flower"; // Replace with your repository name
-        const token = "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"; // Replace with your GitHub Personal Access Token
+        const token = "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"; // Replace with your GitHub Personal Access Token
         const url = `https://api.github.com/repos/${username}/${repo}/issues`;
 
         // Send the POST request
